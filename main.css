@@ -5,7 +5,7 @@
 
 body{
     display: flex;
-    background-color: darkolivegreen;
+    background-color: rgb(52, 114, 95);
     justify-content: center;
 }
 
@@ -17,7 +17,7 @@ body{
 }
 
 aside{
-  background-color: whitesmoke;
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3fr;
@@ -32,36 +32,40 @@ aside{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #pic{
-  justify-content: center;
-  align-items: center;
+  
+  
   border: 3px solid lightgreen;
   border-radius: 50%;
-  margin: 20px;
-  margin-right: 40px;
-  margin-left: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 55px;
+  padding-left: 18px;
+  padding-right: 15px;
+  padding-top: 25px;
+  height: 80px
+  
 }
 #icons{
- 
-  
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
 }
 #icon1{
   background-color: lightgreen;
   
-  border: 20px solid lightgreen;
+  border: 25px solid lightgreen;
+  width: 95px;
+  align-items: center;
+  justify-content: center;
 }
 
 #icon2{
   background-color: rgb(82, 143, 82);
   border: 20px solid rgb(82, 143, 82);
+  padding-top: 5px;
+  width: 95px;
+  align-items: center;
 }
 main{
-    background-color: lightgrey;
+    background-color: rgb(250, 243, 243);
     
 }
 
@@ -96,62 +100,4 @@ main{
   margin-left: 10px;
   padding-bottom: 20px;
 }
-  /* body {
-    margin: 0;
-    font-family: Helvetica;
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 1fr 50px;
-   /* display: flex; */
-    
-    
-
-  /* }
-
-  body:first-child{
-    /*display: flex;*/
- /* }
-
-  body:last-child{
-    display: grid;
-    justify-content: flex-start;
-  }
-
-  #picture {
-    grid-column-start: 2;
-    grid-row: 1 / 2;
-    margin: 5vmin;
-    display: flex;
-   
-    
-  }
-
-  #name{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    background-color: aqua;
-    display: flex;
-  }
-
-  #desc {
-    background-color: antiquewhite;
-    display: flex;
-  }
-
-  #time {
-    background-color: aquamarine;
-    display: flex;
-  }
-
-  #price {
-    background-color: blue;
-    display: flex;
-
-  } */ 
-
-
-
-
-
-  
+ 
